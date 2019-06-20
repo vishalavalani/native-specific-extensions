@@ -19,10 +19,6 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
-    },
-    "packagerOpts": {
-      "projectRoots": "",
-      "config": "rn-cli.config.js"
     }
   }
 }
