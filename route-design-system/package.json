@@ -18,6 +18,7 @@
     "email": "vishal.avalani@gmail.com"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.4.5",
     "react": "^16.8.6",
     "webpack": "^2.6.1"
   }
