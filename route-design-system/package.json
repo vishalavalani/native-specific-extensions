@@ -2,12 +2,14 @@
   "name": "route-design-system",
   "version": "0.0.1",
   "description": "Route design system",
-  "main": "src/index.js",
+  "main": "build/entry.js",
   "peerDependencies": {
     "react": "^16.8.3",
     "react-native": "^0.59.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "styled-components": "^4.3.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
@@ -19,13 +21,13 @@
   },
   "devDependencies": {
     "@babel/runtime": "^7.4.5",
-    "react": "^16.8.6",
-    "webpack": "^2.6.1",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
+    "babel-preset-env": "^1.5.1",
+    "react": "^16.8.6",
+    "webpack": "^2.6.1"
   }
 }
