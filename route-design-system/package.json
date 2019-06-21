@@ -2,7 +2,7 @@
   "name": "route-design-system",
   "version": "0.0.1",
   "description": "Route design system",
-  "main": "build/entry.js",
+  "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.8.3",
     "react-native": "^0.59.0"
