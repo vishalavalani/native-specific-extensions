@@ -13,7 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "mobilewatch": "nodemon -x 'yalc push'"
   },
   "author": {
     "name": "[VA]",
@@ -27,6 +28,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1",
+    "nodemon": "^1.19.1",
     "react": "^16.8.6",
     "webpack": "^2.6.1"
   }

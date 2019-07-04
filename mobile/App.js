@@ -3,10 +3,13 @@ import { StyleSheet, Text, View } from "react-native";
 import { Button } from "route-design-system";
 
 export default function App() {
+  _onClick = () => {
+    Alert.alert("I am being hit!");
+  };
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <Button />
+      <Button onClick={this._onClick} title="Hit Me!" />
     </View>
   );
 }
