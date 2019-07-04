@@ -1,0 +1,23 @@
+{
+  "name": "route-design-system",
+  "version": "0.0.1-767ac1a5",
+  "description": "Route design system",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.0"
+  },
+  "dependencies": {
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack",
+    "mobilewatch": "nodemon -x 'yalc push'"
+  },
+  "author": {
+    "name": "[VA]",
+    "email": "vishal.avalani@gmail.com"
+  }
+}

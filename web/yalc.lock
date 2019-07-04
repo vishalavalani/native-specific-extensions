@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "route-design-system": {
+      "signature": "767ac1a5e5b0c488b0e39286c99cfaf8",
+      "file": true
+    }
+  }
+}
