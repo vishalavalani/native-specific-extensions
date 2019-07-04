@@ -13,7 +13,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <Button title="Hit Me!" onClick={this._onClick} />
-        <p>local env:{process.env.REACT_APP_ENVIRONMENT}</p>
       </div>
     );
   }
