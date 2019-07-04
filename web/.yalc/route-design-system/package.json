@@ -1,6 +1,6 @@
 {
   "name": "route-design-system",
-  "version": "0.0.1-767ac1a5",
+  "version": "0.0.2-151382cf",
   "description": "Route design system",
   "main": "build/index.js",
   "peerDependencies": {

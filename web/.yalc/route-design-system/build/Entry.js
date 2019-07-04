@@ -496,7 +496,7 @@ var AppStyles = {
     PRIMARY_INVERSE: "#FFFFFF",
     SUCCESS: "#008000",
     FAILURE: "#FF0000",
-    BUTTON: "#000000"
+    BUTTON: "#0b64eb"
   },
   fontsize: {
     SMALL: 14,
