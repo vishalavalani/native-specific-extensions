@@ -12,6 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <div>Button imported from route-design-system</div>
         <Button title="Hit Me!" onClick={this._onClick} />
       </div>
     );

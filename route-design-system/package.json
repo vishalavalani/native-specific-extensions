@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack",
-    "mobilewatch": "nodemon -x 'yalc push'"
+    "push": "nodemon -x 'yalc push'"
   },
   "author": {
     "name": "[VA]",
